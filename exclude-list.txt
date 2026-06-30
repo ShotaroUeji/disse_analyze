@@ -1,0 +1,13 @@
+takamichi09/SpatialLibriSpeech/foa
+takamichi09/SpatialLibriSpeech/AudioCaps_mp3
+takamichi09/SpatialAudioCaps
+takamichi09/old_SpatialAudioCaps
+takamichi09/SpatialAudioCaps
+takamichi09/elsa_ckpt_batch2000
+takamichi09/elsa_ckpt_batch64
+takamichi09/elsa_ckck_0711
+takamichi09/elsa_ckck_0710
+takamichi09/elsa_ckck_0706
+takamichi09/elsa_ckck_0705
+takamichi09/.Trash-1000
+takamichi09/AudioCaps

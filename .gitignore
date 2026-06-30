@@ -1,0 +1,7 @@
+/AudioCaps_mp3
+/Spatial_AudioCaps
+.venv/
+wandb/
+/AudioCaps_pcm48k
+/RIR_dataset/RIR_data
+/RIR_dataset/RIR_meta
