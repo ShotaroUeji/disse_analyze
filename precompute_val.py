@@ -88,7 +88,7 @@ def main(args: argparse.Namespace):
         csv_audio=cfg["audio_csv_val"],
         base_dir=cfg["audio_base"],
         csv_rir=cfg["rir_csv_val"],
-        split="val",
+        split="test",
         n_views=max(1, n_views_cfg if isinstance(n_views_cfg, int) else 1),
         share_rir=False,
         batch_size=None,
