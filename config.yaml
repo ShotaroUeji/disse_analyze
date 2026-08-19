@@ -19,8 +19,8 @@ SpatialAudio_csv_val: /home/takamichi-lab-pc09/DELSA/Spatial_AudioCaps/takamichi
 val_precomp_root: Spatial_AudioCaps/takamichi09/for_delsa_spatialAudio_val
 val_index_csv:    Spatial_AudioCaps/takamichi09/for_delsa_spatialAudio_val/val_precomputed.csv   # 省略可（rootからの既定を使う）
 
-test_precomp_root: Spatial_AudioCaps/takamichi09/for_delsa_spatialAudio_test
-test_index_csv:    Spatial_AudioCaps/takamichi09/for_delsa_spatialAudio_test/test_precomputed.csv   # 省略可（rootからの既定を使う）
+test_precomp_root: Spatial_AudioCaps/takamichi09/for_delsa_spatialAudio_test_623
+test_index_csv:    Spatial_AudioCaps/takamichi09/for_delsa_spatialAudio_test_623/test_precomputed.csv   # 省略可（rootからの既定を使う）
 
 val_dry_per_batch: 24
 val_rirs_per_batch: 3
