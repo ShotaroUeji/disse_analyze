@@ -1,0 +1,163 @@
+{
+  "audio_path": "/home/takamichi-lab-pc09/DELSA/AudioCaps_mp3/test/104937.mp3",
+  "model_input_is_shared": true,
+  "sample_rate_hz": 48000,
+  "angles_deg": {
+    "azimuth": 0.0,
+    "elevation": 0.0
+  },
+  "distance_m": 1.5,
+  "room_dims_m": [
+    10.0,
+    7.5,
+    3.0
+  ],
+  "target_t30_s": 0.6,
+  "measured_t30_s": 0.5846086279236518,
+  "alpha": 0.3556081836607924,
+  "max_order": 73,
+  "dry_disse_vs_elsa_max_abs_diff": 0.0,
+  "rir_disse_vs_elsa_max_abs_diff": 0.0,
+  "foa_conversion_max_abs_diff": 0.0,
+  "model_input_max_abs_diff": {
+    "i_act": 0.0,
+    "i_rea": 0.0,
+    "omni_48k": 0.0
+  },
+  "dry_mono_48k": {
+    "shape": [
+      1,
+      480000
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "min": -0.032593466341495514,
+    "max": 0.04135136678814888,
+    "peak_abs": 0.04135136678814888,
+    "rms": 0.004031071905046701,
+    "nonzero_fraction": 1.0
+  },
+  "rir_aformat_48k": {
+    "shape": [
+      4,
+      102454
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "min": -0.03246089071035385,
+    "max": 0.5252591371536255,
+    "peak_abs": 0.5252591371536255,
+    "rms": 0.0016575687332078815,
+    "nonzero_fraction": 0.9002820778105296
+  },
+  "wet_foa_48k": {
+    "shape": [
+      4,
+      480000
+    ],
+    "dtype": "torch.float32",
+    "finite": true,
+    "min": -0.0289757177233696,
+    "max": 0.039707768708467484,
+    "peak_abs": 0.039707768708467484,
+    "rms": 0.0024336513597518206,
+    "nonzero_fraction": 0.9690822916666667
+  },
+  "disse_input": {
+    "i_act": {
+      "shape": [
+        1,
+        3,
+        201,
+        1601
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": -1.0,
+      "max": 1.0,
+      "peak_abs": 1.0,
+      "rms": 0.5524856448173523,
+      "nonzero_fraction": 1.0
+    },
+    "i_rea": {
+      "shape": [
+        1,
+        3,
+        201,
+        1601
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": -2416.8720703125,
+      "max": 1773.9813232421875,
+      "peak_abs": 2416.8720703125,
+      "rms": 6.474867343902588,
+      "nonzero_fraction": 0.990039392875307
+    },
+    "omni_48k": {
+      "shape": [
+        1,
+        480000
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": -0.0289757177233696,
+      "max": 0.039707768708467484,
+      "peak_abs": 0.039707768708467484,
+      "rms": 0.004108593333512545,
+      "nonzero_fraction": 1.0
+    }
+  },
+  "elsa_input": {
+    "i_act": {
+      "shape": [
+        1,
+        3,
+        201,
+        1601
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": -1.0,
+      "max": 1.0,
+      "peak_abs": 1.0,
+      "rms": 0.5524856448173523,
+      "nonzero_fraction": 1.0
+    },
+    "i_rea": {
+      "shape": [
+        1,
+        3,
+        201,
+        1601
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": -2416.8720703125,
+      "max": 1773.9813232421875,
+      "peak_abs": 2416.8720703125,
+      "rms": 6.474867343902588,
+      "nonzero_fraction": 0.990039392875307
+    },
+    "omni_48k": {
+      "shape": [
+        1,
+        480000
+      ],
+      "dtype": "torch.float32",
+      "finite": true,
+      "min": -0.0289757177233696,
+      "max": 0.039707768708467484,
+      "peak_abs": 0.039707768708467484,
+      "rms": 0.004108593333512545,
+      "nonzero_fraction": 1.0
+    }
+  },
+  "outputs": {
+    "dry": "dry_mono_48k.wav",
+    "rir": "rir_aformat_48k.wav",
+    "foa": "wet_foa_48k.wav",
+    "omni": "model_input_omni_48k.wav",
+    "waveform": "waveform_check.png"
+  }
+}
