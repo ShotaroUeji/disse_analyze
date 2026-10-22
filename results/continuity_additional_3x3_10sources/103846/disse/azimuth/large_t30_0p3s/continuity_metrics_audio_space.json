@@ -1,0 +1,675 @@
+{
+  "model": "DISSE",
+  "emb_pt": "/home/takamichi-lab-pc09/DELSA/results/continuity_additional_3x3_10sources/103846/disse/azimuth/large_t30_0p3s/continuous_azimuth_embeddings.pt",
+  "axis": "azimuth",
+  "embedding_key": "audio_space",
+  "n_points": 72,
+  "embedding_dim": 512,
+  "values_deg": [
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0,
+    60.0,
+    65.0,
+    70.0,
+    75.0,
+    80.0,
+    85.0,
+    90.0,
+    95.0,
+    100.0,
+    105.0,
+    110.0,
+    115.0,
+    120.0,
+    125.0,
+    130.0,
+    135.0,
+    140.0,
+    145.0,
+    150.0,
+    155.0,
+    160.0,
+    165.0,
+    170.0,
+    175.0,
+    180.0,
+    185.0,
+    190.0,
+    195.0,
+    200.0,
+    205.0,
+    210.0,
+    215.0,
+    220.0,
+    225.0,
+    230.0,
+    235.0,
+    240.0,
+    245.0,
+    250.0,
+    255.0,
+    260.0,
+    265.0,
+    270.0,
+    275.0,
+    280.0,
+    285.0,
+    290.0,
+    295.0,
+    300.0,
+    305.0,
+    310.0,
+    315.0,
+    320.0,
+    325.0,
+    330.0,
+    335.0,
+    340.0,
+    345.0,
+    350.0,
+    355.0
+  ],
+  "scores": {
+    "QNX(2)": 0.6597222222222222,
+    "Sadj": 0.8309810419529721,
+    "definitions": {
+      "QNX(2)": "Mean overlap between each point's two nearest physical neighbors and two nearest embedding neighbors; higher is better.",
+      "Sadj": "sum((d_adj-mean(d_adj))^2)/sum(d_adj^2), where d_adj is 1-cosine for physically adjacent points; lower is better. Azimuth includes the wraparound edge; elevation excludes it. null means the denominator is numerically zero."
+    },
+    "diagnostics": {
+      "qnx2_per_point": [
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        0.5,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "n_adjacent_edges": 72,
+      "adjacent_cosine_distance_mean": 0.0820072748594814,
+      "adjacent_cosine_distance_std": 0.18183615028818756,
+      "physical_adjacent_distances": [
+        {
+          "from_index": 0,
+          "to_index": 1,
+          "from_deg": 0.0,
+          "to_deg": 5.0,
+          "cosine_distance": 0.3484346270561218
+        },
+        {
+          "from_index": 1,
+          "to_index": 2,
+          "from_deg": 5.0,
+          "to_deg": 10.0,
+          "cosine_distance": 0.038808226585388184
+        },
+        {
+          "from_index": 2,
+          "to_index": 3,
+          "from_deg": 10.0,
+          "to_deg": 15.0,
+          "cosine_distance": 0.0318835973739624
+        },
+        {
+          "from_index": 3,
+          "to_index": 4,
+          "from_deg": 15.0,
+          "to_deg": 20.0,
+          "cosine_distance": 0.009218454360961914
+        },
+        {
+          "from_index": 4,
+          "to_index": 5,
+          "from_deg": 20.0,
+          "to_deg": 25.0,
+          "cosine_distance": 0.023218989372253418
+        },
+        {
+          "from_index": 5,
+          "to_index": 6,
+          "from_deg": 25.0,
+          "to_deg": 30.0,
+          "cosine_distance": 0.009908795356750488
+        },
+        {
+          "from_index": 6,
+          "to_index": 7,
+          "from_deg": 30.0,
+          "to_deg": 35.0,
+          "cosine_distance": 0.04764217138290405
+        },
+        {
+          "from_index": 7,
+          "to_index": 8,
+          "from_deg": 35.0,
+          "to_deg": 40.0,
+          "cosine_distance": 0.026584744453430176
+        },
+        {
+          "from_index": 8,
+          "to_index": 9,
+          "from_deg": 40.0,
+          "to_deg": 45.0,
+          "cosine_distance": 0.015805721282958984
+        },
+        {
+          "from_index": 9,
+          "to_index": 10,
+          "from_deg": 45.0,
+          "to_deg": 50.0,
+          "cosine_distance": 0.021018505096435547
+        },
+        {
+          "from_index": 10,
+          "to_index": 11,
+          "from_deg": 50.0,
+          "to_deg": 55.0,
+          "cosine_distance": 0.0207136869430542
+        },
+        {
+          "from_index": 11,
+          "to_index": 12,
+          "from_deg": 55.0,
+          "to_deg": 60.0,
+          "cosine_distance": 0.03442347049713135
+        },
+        {
+          "from_index": 12,
+          "to_index": 13,
+          "from_deg": 60.0,
+          "to_deg": 65.0,
+          "cosine_distance": 0.010605871677398682
+        },
+        {
+          "from_index": 13,
+          "to_index": 14,
+          "from_deg": 65.0,
+          "to_deg": 70.0,
+          "cosine_distance": 0.019681990146636963
+        },
+        {
+          "from_index": 14,
+          "to_index": 15,
+          "from_deg": 70.0,
+          "to_deg": 75.0,
+          "cosine_distance": 0.006507992744445801
+        },
+        {
+          "from_index": 15,
+          "to_index": 16,
+          "from_deg": 75.0,
+          "to_deg": 80.0,
+          "cosine_distance": 0.018416166305541992
+        },
+        {
+          "from_index": 16,
+          "to_index": 17,
+          "from_deg": 80.0,
+          "to_deg": 85.0,
+          "cosine_distance": 0.00807410478591919
+        },
+        {
+          "from_index": 17,
+          "to_index": 18,
+          "from_deg": 85.0,
+          "to_deg": 90.0,
+          "cosine_distance": 0.7299073934555054
+        },
+        {
+          "from_index": 18,
+          "to_index": 19,
+          "from_deg": 90.0,
+          "to_deg": 95.0,
+          "cosine_distance": 0.8311046361923218
+        },
+        {
+          "from_index": 19,
+          "to_index": 20,
+          "from_deg": 95.0,
+          "to_deg": 100.0,
+          "cosine_distance": 0.007813096046447754
+        },
+        {
+          "from_index": 20,
+          "to_index": 21,
+          "from_deg": 100.0,
+          "to_deg": 105.0,
+          "cosine_distance": 0.021129488945007324
+        },
+        {
+          "from_index": 21,
+          "to_index": 22,
+          "from_deg": 105.0,
+          "to_deg": 110.0,
+          "cosine_distance": 0.007360577583312988
+        },
+        {
+          "from_index": 22,
+          "to_index": 23,
+          "from_deg": 110.0,
+          "to_deg": 115.0,
+          "cosine_distance": 0.01638317108154297
+        },
+        {
+          "from_index": 23,
+          "to_index": 24,
+          "from_deg": 115.0,
+          "to_deg": 120.0,
+          "cosine_distance": 0.01446986198425293
+        },
+        {
+          "from_index": 24,
+          "to_index": 25,
+          "from_deg": 120.0,
+          "to_deg": 125.0,
+          "cosine_distance": 0.021988391876220703
+        },
+        {
+          "from_index": 25,
+          "to_index": 26,
+          "from_deg": 125.0,
+          "to_deg": 130.0,
+          "cosine_distance": 0.016418099403381348
+        },
+        {
+          "from_index": 26,
+          "to_index": 27,
+          "from_deg": 130.0,
+          "to_deg": 135.0,
+          "cosine_distance": 0.011883974075317383
+        },
+        {
+          "from_index": 27,
+          "to_index": 28,
+          "from_deg": 135.0,
+          "to_deg": 140.0,
+          "cosine_distance": 0.005233407020568848
+        },
+        {
+          "from_index": 28,
+          "to_index": 29,
+          "from_deg": 140.0,
+          "to_deg": 145.0,
+          "cosine_distance": 0.005273580551147461
+        },
+        {
+          "from_index": 29,
+          "to_index": 30,
+          "from_deg": 145.0,
+          "to_deg": 150.0,
+          "cosine_distance": 0.022281885147094727
+        },
+        {
+          "from_index": 30,
+          "to_index": 31,
+          "from_deg": 150.0,
+          "to_deg": 155.0,
+          "cosine_distance": 0.012138426303863525
+        },
+        {
+          "from_index": 31,
+          "to_index": 32,
+          "from_deg": 155.0,
+          "to_deg": 160.0,
+          "cosine_distance": 0.00886392593383789
+        },
+        {
+          "from_index": 32,
+          "to_index": 33,
+          "from_deg": 160.0,
+          "to_deg": 165.0,
+          "cosine_distance": 0.006421208381652832
+        },
+        {
+          "from_index": 33,
+          "to_index": 34,
+          "from_deg": 165.0,
+          "to_deg": 170.0,
+          "cosine_distance": 0.02512645721435547
+        },
+        {
+          "from_index": 34,
+          "to_index": 35,
+          "from_deg": 170.0,
+          "to_deg": 175.0,
+          "cosine_distance": 0.04788219928741455
+        },
+        {
+          "from_index": 35,
+          "to_index": 36,
+          "from_deg": 175.0,
+          "to_deg": 180.0,
+          "cosine_distance": 0.5404783487319946
+        },
+        {
+          "from_index": 36,
+          "to_index": 37,
+          "from_deg": 180.0,
+          "to_deg": 185.0,
+          "cosine_distance": 0.3937089443206787
+        },
+        {
+          "from_index": 37,
+          "to_index": 38,
+          "from_deg": 185.0,
+          "to_deg": 190.0,
+          "cosine_distance": 0.07967227697372437
+        },
+        {
+          "from_index": 38,
+          "to_index": 39,
+          "from_deg": 190.0,
+          "to_deg": 195.0,
+          "cosine_distance": 0.04061001539230347
+        },
+        {
+          "from_index": 39,
+          "to_index": 40,
+          "from_deg": 195.0,
+          "to_deg": 200.0,
+          "cosine_distance": 0.01696646213531494
+        },
+        {
+          "from_index": 40,
+          "to_index": 41,
+          "from_deg": 200.0,
+          "to_deg": 205.0,
+          "cosine_distance": 0.027756929397583008
+        },
+        {
+          "from_index": 41,
+          "to_index": 42,
+          "from_deg": 205.0,
+          "to_deg": 210.0,
+          "cosine_distance": 0.023047804832458496
+        },
+        {
+          "from_index": 42,
+          "to_index": 43,
+          "from_deg": 210.0,
+          "to_deg": 215.0,
+          "cosine_distance": 0.025476574897766113
+        },
+        {
+          "from_index": 43,
+          "to_index": 44,
+          "from_deg": 215.0,
+          "to_deg": 220.0,
+          "cosine_distance": 0.015018224716186523
+        },
+        {
+          "from_index": 44,
+          "to_index": 45,
+          "from_deg": 220.0,
+          "to_deg": 225.0,
+          "cosine_distance": 0.01306164264678955
+        },
+        {
+          "from_index": 45,
+          "to_index": 46,
+          "from_deg": 225.0,
+          "to_deg": 230.0,
+          "cosine_distance": 0.01765608787536621
+        },
+        {
+          "from_index": 46,
+          "to_index": 47,
+          "from_deg": 230.0,
+          "to_deg": 235.0,
+          "cosine_distance": 0.01346808671951294
+        },
+        {
+          "from_index": 47,
+          "to_index": 48,
+          "from_deg": 235.0,
+          "to_deg": 240.0,
+          "cosine_distance": 0.011357486248016357
+        },
+        {
+          "from_index": 48,
+          "to_index": 49,
+          "from_deg": 240.0,
+          "to_deg": 245.0,
+          "cosine_distance": 0.007192850112915039
+        },
+        {
+          "from_index": 49,
+          "to_index": 50,
+          "from_deg": 245.0,
+          "to_deg": 250.0,
+          "cosine_distance": 0.013539671897888184
+        },
+        {
+          "from_index": 50,
+          "to_index": 51,
+          "from_deg": 250.0,
+          "to_deg": 255.0,
+          "cosine_distance": 0.006614565849304199
+        },
+        {
+          "from_index": 51,
+          "to_index": 52,
+          "from_deg": 255.0,
+          "to_deg": 260.0,
+          "cosine_distance": 0.01877772808074951
+        },
+        {
+          "from_index": 52,
+          "to_index": 53,
+          "from_deg": 260.0,
+          "to_deg": 265.0,
+          "cosine_distance": 0.011952042579650879
+        },
+        {
+          "from_index": 53,
+          "to_index": 54,
+          "from_deg": 265.0,
+          "to_deg": 270.0,
+          "cosine_distance": 0.5927264094352722
+        },
+        {
+          "from_index": 54,
+          "to_index": 55,
+          "from_deg": 270.0,
+          "to_deg": 275.0,
+          "cosine_distance": 0.6003851294517517
+        },
+        {
+          "from_index": 55,
+          "to_index": 56,
+          "from_deg": 275.0,
+          "to_deg": 280.0,
+          "cosine_distance": 0.009401500225067139
+        },
+        {
+          "from_index": 56,
+          "to_index": 57,
+          "from_deg": 280.0,
+          "to_deg": 285.0,
+          "cosine_distance": 0.01603490114212036
+        },
+        {
+          "from_index": 57,
+          "to_index": 58,
+          "from_deg": 285.0,
+          "to_deg": 290.0,
+          "cosine_distance": 0.0038911104202270508
+        },
+        {
+          "from_index": 58,
+          "to_index": 59,
+          "from_deg": 290.0,
+          "to_deg": 295.0,
+          "cosine_distance": 0.020987987518310547
+        },
+        {
+          "from_index": 59,
+          "to_index": 60,
+          "from_deg": 295.0,
+          "to_deg": 300.0,
+          "cosine_distance": 0.030388236045837402
+        },
+        {
+          "from_index": 60,
+          "to_index": 61,
+          "from_deg": 300.0,
+          "to_deg": 305.0,
+          "cosine_distance": 0.0167391300201416
+        },
+        {
+          "from_index": 61,
+          "to_index": 62,
+          "from_deg": 305.0,
+          "to_deg": 310.0,
+          "cosine_distance": 0.017716646194458008
+        },
+        {
+          "from_index": 62,
+          "to_index": 63,
+          "from_deg": 310.0,
+          "to_deg": 315.0,
+          "cosine_distance": 0.023478031158447266
+        },
+        {
+          "from_index": 63,
+          "to_index": 64,
+          "from_deg": 315.0,
+          "to_deg": 320.0,
+          "cosine_distance": 0.01789402961730957
+        },
+        {
+          "from_index": 64,
+          "to_index": 65,
+          "from_deg": 320.0,
+          "to_deg": 325.0,
+          "cosine_distance": 0.006764233112335205
+        },
+        {
+          "from_index": 65,
+          "to_index": 66,
+          "from_deg": 325.0,
+          "to_deg": 330.0,
+          "cosine_distance": 0.03906846046447754
+        },
+        {
+          "from_index": 66,
+          "to_index": 67,
+          "from_deg": 330.0,
+          "to_deg": 335.0,
+          "cosine_distance": 0.05494147539138794
+        },
+        {
+          "from_index": 67,
+          "to_index": 68,
+          "from_deg": 335.0,
+          "to_deg": 340.0,
+          "cosine_distance": 0.047737300395965576
+        },
+        {
+          "from_index": 68,
+          "to_index": 69,
+          "from_deg": 340.0,
+          "to_deg": 345.0,
+          "cosine_distance": 0.012458503246307373
+        },
+        {
+          "from_index": 69,
+          "to_index": 70,
+          "from_deg": 345.0,
+          "to_deg": 350.0,
+          "cosine_distance": 0.027883708477020264
+        },
+        {
+          "from_index": 70,
+          "to_index": 71,
+          "from_deg": 350.0,
+          "to_deg": 355.0,
+          "cosine_distance": 0.019157707691192627
+        },
+        {
+          "from_index": 71,
+          "to_index": 0,
+          "from_deg": 355.0,
+          "to_deg": 0.0,
+          "cosine_distance": 0.5678866505622864
+        }
+      ]
+    }
+  }
+}

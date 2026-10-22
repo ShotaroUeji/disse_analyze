@@ -1,0 +1,4 @@
+PROBLEM_FILE = /home/takamichi-lab-pc09/DELSA/results/elsa/elevation_reverb/wordtour.tsp
+OUTPUT_TOUR_FILE = /home/takamichi-lab-pc09/DELSA/results/elsa/elevation_reverb/wordtour.out
+RUNS = 10
+SEED = 42

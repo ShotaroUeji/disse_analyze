@@ -1,0 +1,4 @@
+PROBLEM_FILE = /home/takamichi-lab-pc09/DELSA/results/continuity_additional_3x3_10sources/106039/elsa/elevation/medium_t30_0p3s/wordtour.tsp
+OUTPUT_TOUR_FILE = /home/takamichi-lab-pc09/DELSA/results/continuity_additional_3x3_10sources/106039/elsa/elevation/medium_t30_0p3s/wordtour.out
+RUNS = 10
+SEED = 42

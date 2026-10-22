@@ -1,0 +1,235 @@
+{
+  "fingerprint": "9a37210ef8493dd88bfa76efe11f5ad484645f0504713c1c7496a3a626ba56ed",
+  "conditions": {
+    "small_t30_0p0s": {
+      "room_id": "small",
+      "room_dims_m": [
+        6.0,
+        5.0,
+        3.0
+      ],
+      "target_t30_s": 0.0,
+      "measured_t30_s_at_reference": null,
+      "alpha": 1.0,
+      "max_order": 0
+    },
+    "small_t30_0p3s": {
+      "room_id": "small",
+      "room_dims_m": [
+        6.0,
+        5.0,
+        3.0
+      ],
+      "target_t30_s": 0.3,
+      "measured_t30_s_at_reference": 0.3126426158842191,
+      "alpha": 0.4193858411646946,
+      "max_order": 40,
+      "reference_azimuth_deg": 0.0,
+      "reference_elevation_deg": 0.0,
+      "tolerance_s": 0.02,
+      "calibration_history": [
+        {
+          "alpha": 0.3836043470210822,
+          "measured_t30_s": 0.35596624921715897
+        },
+        {
+          "alpha": 0.455167335308307,
+          "measured_t30_s": 0.2755869066678859
+        },
+        {
+          "alpha": 0.4193858411646946,
+          "measured_t30_s": 0.3126426158842191
+        }
+      ]
+    },
+    "small_t30_0p6s": {
+      "room_id": "small",
+      "room_dims_m": [
+        6.0,
+        5.0,
+        3.0
+      ],
+      "target_t30_s": 0.6,
+      "measured_t30_s_at_reference": 0.5929490963330067,
+      "alpha": 0.2616519592897027,
+      "max_order": 80,
+      "reference_azimuth_deg": 0.0,
+      "reference_elevation_deg": 0.0,
+      "tolerance_s": 0.02,
+      "calibration_history": [
+        {
+          "alpha": 0.1918021735105411,
+          "measured_t30_s": 0.8497208195621481
+        },
+        {
+          "alpha": 0.2716305001152972,
+          "measured_t30_s": 0.5659834505318481
+        },
+        {
+          "alpha": 0.23171633681291914,
+          "measured_t30_s": 0.68646938406114
+        },
+        {
+          "alpha": 0.2516734184641082,
+          "measured_t30_s": 0.6221015273020303
+        },
+        {
+          "alpha": 0.2616519592897027,
+          "measured_t30_s": 0.5929490963330067
+        }
+      ]
+    },
+    "medium_t30_0p0s": {
+      "room_id": "medium",
+      "room_dims_m": [
+        10.0,
+        7.5,
+        3.0
+      ],
+      "target_t30_s": 0.0,
+      "measured_t30_s_at_reference": null,
+      "alpha": 1.0,
+      "max_order": 0
+    },
+    "medium_t30_0p3s": {
+      "room_id": "medium",
+      "room_dims_m": [
+        10.0,
+        7.5,
+        3.0
+      ],
+      "target_t30_s": 0.3,
+      "measured_t30_s_at_reference": 0.3081918759246318,
+      "alpha": 0.5410922891299077,
+      "max_order": 36,
+      "reference_azimuth_deg": 0.0,
+      "reference_elevation_deg": 0.0,
+      "tolerance_s": 0.02,
+      "calibration_history": [
+        {
+          "alpha": 0.47386419337898394,
+          "measured_t30_s": 0.38512324419982896
+        },
+        {
+          "alpha": 0.6083203848808314,
+          "measured_t30_s": 0.25346121168586017
+        },
+        {
+          "alpha": 0.5410922891299077,
+          "measured_t30_s": 0.3081918759246318
+        }
+      ]
+    },
+    "medium_t30_0p6s": {
+      "room_id": "medium",
+      "room_dims_m": [
+        10.0,
+        7.5,
+        3.0
+      ],
+      "target_t30_s": 0.6,
+      "measured_t30_s_at_reference": 0.5846086279236518,
+      "alpha": 0.3556081836607924,
+      "max_order": 73,
+      "reference_azimuth_deg": 0.0,
+      "reference_elevation_deg": 0.0,
+      "tolerance_s": 0.02,
+      "calibration_history": [
+        {
+          "alpha": 0.23693209668949197,
+          "measured_t30_s": 1.0007091943370752
+        },
+        {
+          "alpha": 0.3951668793178925,
+          "measured_t30_s": 0.5029453882452339
+        },
+        {
+          "alpha": 0.31604948800369226,
+          "measured_t30_s": 0.6872755964478403
+        },
+        {
+          "alpha": 0.3556081836607924,
+          "measured_t30_s": 0.5846086279236518
+        }
+      ]
+    },
+    "large_t30_0p0s": {
+      "room_id": "large",
+      "room_dims_m": [
+        15.0,
+        10.0,
+        3.0
+      ],
+      "target_t30_s": 0.0,
+      "measured_t30_s_at_reference": null,
+      "alpha": 1.0,
+      "max_order": 0
+    },
+    "large_t30_0p3s": {
+      "room_id": "large",
+      "room_dims_m": [
+        15.0,
+        10.0,
+        3.0
+      ],
+      "target_t30_s": 0.3,
+      "measured_t30_s_at_reference": 0.30612934332917696,
+      "alpha": 0.6561515954402055,
+      "max_order": 35,
+      "reference_azimuth_deg": 0.0,
+      "reference_elevation_deg": 0.0,
+      "tolerance_s": 0.02,
+      "calibration_history": [
+        {
+          "alpha": 0.5370460858295151,
+          "measured_t30_s": 0.43306736172563837
+        },
+        {
+          "alpha": 0.7752571050508961,
+          "measured_t30_s": 0.22869908905638786
+        },
+        {
+          "alpha": 0.6561515954402055,
+          "measured_t30_s": 0.30612934332917696
+        }
+      ]
+    },
+    "large_t30_0p6s": {
+      "room_id": "large",
+      "room_dims_m": [
+        15.0,
+        10.0,
+        3.0
+      ],
+      "target_t30_s": 0.6,
+      "measured_t30_s_at_reference": 0.6033660208022854,
+      "alpha": 0.43240701586385316,
+      "max_order": 71,
+      "reference_azimuth_deg": 0.0,
+      "reference_elevation_deg": 0.0,
+      "tolerance_s": 0.02,
+      "calibration_history": [
+        {
+          "alpha": 0.26852304291475754,
+          "measured_t30_s": 1.1859035869822006
+        },
+        {
+          "alpha": 0.5307373996333106,
+          "measured_t30_s": 0.44519549357103055
+        },
+        {
+          "alpha": 0.399630221274034,
+          "measured_t30_s": 0.6792822121979154
+        },
+        {
+          "alpha": 0.4651838104536723,
+          "measured_t30_s": 0.546356371508615
+        },
+        {
+          "alpha": 0.43240701586385316,
+          "measured_t30_s": 0.6033660208022854
+        }
+      ]
+    }
+  }
+}

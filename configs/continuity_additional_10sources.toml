@@ -1,0 +1,55 @@
+# Ten-source continuity evaluation.
+# Per-source rows are written to summary.csv; condition-wise means are written
+# to summary_mean.csv after all ten sources have completed.
+output_root = "results/continuity_additional_3x3_10sources"
+audio_sources = [
+  "AudioCaps_mp3/test/10037.mp3",
+  "AudioCaps_mp3/test/10203.mp3",
+  "AudioCaps_mp3/test/103289.mp3",
+  "AudioCaps_mp3/test/103846.mp3",
+  "AudioCaps_mp3/test/104403.mp3",
+  "AudioCaps_mp3/test/104937.mp3",
+  "AudioCaps_mp3/test/105490.mp3",
+  "AudioCaps_mp3/test/106039.mp3",
+  "AudioCaps_mp3/test/106612.mp3",
+  "AudioCaps_mp3/test/107280.mp3",
+]
+audio_source_mode = "mean"
+distance_m = 1.5
+target_t30_s = [0.0, 0.3, 0.6]
+t30_tolerance_s = 0.02
+calibration_max_iterations = 16
+
+[azimuth]
+start_deg = 0.0
+end_deg = 360.0
+step_deg = 5.0
+fixed_elevation_deg = 0.0
+
+[elevation]
+min_deg = -45.0
+max_deg = 45.0
+step_deg = 5.0
+fixed_azimuth_deg = 0.0
+
+[[rooms]]
+id = "small"
+dims_m = [6.0, 5.0, 3.0]
+
+[[rooms]]
+id = "medium"
+dims_m = [10.0, 7.5, 3.0]
+
+[[rooms]]
+id = "large"
+dims_m = [15.0, 10.0, 3.0]
+
+[models.disse]
+enabled = true
+checkpoint = "Spatial_AudioCaps/takamichi09/checkpoints_delsa_fromELSA/ckpt_sup_ep20.pt"
+
+[models.elsa]
+enabled = true
+root = "~/elsa"
+checkpoint = "~/elsa/Spatial_AudioCaps/takamichi09/elsa_ckck_0711/elsa_epoch_30.pt"
+batch_size = 4

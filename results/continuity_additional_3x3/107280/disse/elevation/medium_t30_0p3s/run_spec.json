@@ -1,0 +1,49 @@
+{
+  "source": "/home/takamichi-lab-pc09/DELSA/AudioCaps_mp3/test/107280.mp3",
+  "model": "disse",
+  "axis": "elevation",
+  "condition": "medium_t30_0p3s",
+  "condition_parameters": {
+    "room_id": "medium",
+    "room_dims_m": [
+      10.0,
+      7.5,
+      3.0
+    ],
+    "target_t30_s": 0.3,
+    "measured_t30_s_at_reference": 0.3081918759246318,
+    "alpha": 0.5410922891299077,
+    "max_order": 36,
+    "reference_azimuth_deg": 0.0,
+    "reference_elevation_deg": 0.0,
+    "tolerance_s": 0.02,
+    "calibration_history": [
+      {
+        "alpha": 0.47386419337898394,
+        "measured_t30_s": 0.38512324419982896
+      },
+      {
+        "alpha": 0.6083203848808314,
+        "measured_t30_s": 0.25346121168586017
+      },
+      {
+        "alpha": 0.5410922891299077,
+        "measured_t30_s": 0.3081918759246318
+      }
+    ]
+  },
+  "distance_m": 1.5,
+  "azimuth": {
+    "start_deg": 0.0,
+    "end_deg": 360.0,
+    "step_deg": 5.0,
+    "fixed_elevation_deg": 0.0
+  },
+  "elevation": {
+    "min_deg": -45.0,
+    "max_deg": 45.0,
+    "step_deg": 5.0,
+    "fixed_azimuth_deg": 0.0
+  },
+  "checkpoint": "/media/takamichi-lab-pc09/takamichi09/checkpoints_delsa_fromELSA/ckpt_sup_ep20.pt"
+}

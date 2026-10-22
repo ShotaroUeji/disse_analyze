@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "model": "ELSA",
+    "embedding": "audio_encoder output, L2-normalized",
+    "axis": "elevation",
+    "condition": "dry",
+    "values_deg": [
+      -45.0,
+      -40.0,
+      -35.0,
+      -30.0,
+      -25.0,
+      -20.0,
+      -15.0,
+      -10.0,
+      -5.0,
+      0.0,
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0
+    ],
+    "fixed_azimuth_deg": 0.0,
+    "fixed_elevation_deg": 0.0,
+    "distance_m": 1.5,
+    "room_dims_m": [
+      6.0,
+      5.0,
+      3.0
+    ],
+    "alpha": 1.0,
+    "max_order": 0,
+    "audio_path": "/home/takamichi-lab-pc09/DELSA/AudioCaps_mp3/test/107280.mp3",
+    "ckpt": "/media/takamichi-lab-pc09/takamichi09/elsa_ckck_0711/elsa_epoch_30.pt",
+    "elsa_root": "/home/takamichi-lab-pc09/elsa"
+  },
+  "scores": {
+    "Atour": null,
+    "QNX(2)": 0.9210526315789473,
+    "Sadj": 0.23379386383730524,
+    "definitions": {
+      "Atour": "fraction of WordTour/LKH route edges that connect physically adjacent angles (azimuth: cycle; elevation: dummy-node path)",
+      "QNX(2)": "mean overlap between each point's two nearest physical neighbors and two nearest embedding neighbors",
+      "Sadj": "sum((d_adj-mean(d_adj))^2)/sum(d_adj^2), where d_adj is 1-cosine for physically adjacent points"
+    },
+    "diagnostics": {
+      "qnx2_per_point": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "adjacent_cosine_distance_mean": 0.004053894016477797,
+      "adjacent_cosine_distance_std": 0.002239319860397025,
+      "adjacent_cosine_distance_cv": 0.5523873715728378,
+      "sadj_wordtour_l2_diagnostic": 0.07324246760577909,
+      "mean_all_pairwise_cosine_distance": 0.036976519732447394,
+      "std_all_pairwise_cosine_distance": 0.027062309922506064
+    }
+  }
+}

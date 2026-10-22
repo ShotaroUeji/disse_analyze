@@ -1,0 +1,57 @@
+{
+  "source": "/home/takamichi-lab-pc09/DELSA/AudioCaps_mp3/test/103289.mp3",
+  "model": "disse",
+  "axis": "azimuth",
+  "condition": "small_t30_0p6s",
+  "condition_parameters": {
+    "room_id": "small",
+    "room_dims_m": [
+      6.0,
+      5.0,
+      3.0
+    ],
+    "target_t30_s": 0.6,
+    "measured_t30_s_at_reference": 0.5929490963330067,
+    "alpha": 0.2616519592897027,
+    "max_order": 80,
+    "reference_azimuth_deg": 0.0,
+    "reference_elevation_deg": 0.0,
+    "tolerance_s": 0.02,
+    "calibration_history": [
+      {
+        "alpha": 0.1918021735105411,
+        "measured_t30_s": 0.8497208195621481
+      },
+      {
+        "alpha": 0.2716305001152972,
+        "measured_t30_s": 0.5659834505318481
+      },
+      {
+        "alpha": 0.23171633681291914,
+        "measured_t30_s": 0.68646938406114
+      },
+      {
+        "alpha": 0.2516734184641082,
+        "measured_t30_s": 0.6221015273020303
+      },
+      {
+        "alpha": 0.2616519592897027,
+        "measured_t30_s": 0.5929490963330067
+      }
+    ]
+  },
+  "distance_m": 1.5,
+  "azimuth": {
+    "start_deg": 0.0,
+    "end_deg": 360.0,
+    "step_deg": 5.0,
+    "fixed_elevation_deg": 0.0
+  },
+  "elevation": {
+    "min_deg": -45.0,
+    "max_deg": 45.0,
+    "step_deg": 5.0,
+    "fixed_azimuth_deg": 0.0
+  },
+  "checkpoint": "/media/takamichi-lab-pc09/takamichi09/checkpoints_delsa_fromELSA/ckpt_sup_ep20.pt"
+}

@@ -1,0 +1,55 @@
+{
+  "source": "/home/takamichi-lab-pc09/DELSA/AudioCaps_mp3/test/106612.mp3",
+  "model": "elsa",
+  "axis": "azimuth",
+  "condition": "medium_t30_0p6s",
+  "condition_parameters": {
+    "room_id": "medium",
+    "room_dims_m": [
+      10.0,
+      7.5,
+      3.0
+    ],
+    "target_t30_s": 0.6,
+    "measured_t30_s_at_reference": 0.5846086279236518,
+    "alpha": 0.3556081836607924,
+    "max_order": 73,
+    "reference_azimuth_deg": 0.0,
+    "reference_elevation_deg": 0.0,
+    "tolerance_s": 0.02,
+    "calibration_history": [
+      {
+        "alpha": 0.23693209668949197,
+        "measured_t30_s": 1.0007091943370752
+      },
+      {
+        "alpha": 0.3951668793178925,
+        "measured_t30_s": 0.5029453882452339
+      },
+      {
+        "alpha": 0.31604948800369226,
+        "measured_t30_s": 0.6872755964478403
+      },
+      {
+        "alpha": 0.3556081836607924,
+        "measured_t30_s": 0.5846086279236518
+      }
+    ]
+  },
+  "distance_m": 1.5,
+  "azimuth": {
+    "start_deg": 0.0,
+    "end_deg": 360.0,
+    "step_deg": 5.0,
+    "fixed_elevation_deg": 0.0
+  },
+  "elevation": {
+    "min_deg": -45.0,
+    "max_deg": 45.0,
+    "step_deg": 5.0,
+    "fixed_azimuth_deg": 0.0
+  },
+  "checkpoint": "/media/takamichi-lab-pc09/takamichi09/elsa_ckck_0711/elsa_epoch_30.pt",
+  "elsa_root": "/home/takamichi-lab-pc09/elsa",
+  "batch_size": 4
+}

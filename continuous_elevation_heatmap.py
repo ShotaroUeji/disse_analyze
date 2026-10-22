@@ -411,11 +411,11 @@ def main():
     parser.add_argument("--eval_amp", action="store_true")
 
     # All external angle arguments are degrees.
-    # Elevation sweep:
+    # Elevation sweep: -45, -40, ..., 45 degrees (5-degree steps).
     parser.add_argument("--azimuth_deg", type=float, default=0.0)
-    parser.add_argument("--el_min_deg", type=float, default=-47.5)
-    parser.add_argument("--el_max_deg", type=float, default=48.7)
-    parser.add_argument("--n_steps", type=int, default=72)
+    parser.add_argument("--el_min_deg", type=float, default=-45.0)
+    parser.add_argument("--el_max_deg", type=float, default=45.0)
+    parser.add_argument("--n_steps", type=int, default=19)
 
     parser.add_argument("--distance_m", type=float, default=2.0)
     parser.add_argument("--room_dims", type=float, nargs=3, default=[8.0, 7.0, 3.0])

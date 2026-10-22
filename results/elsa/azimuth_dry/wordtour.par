@@ -1,0 +1,4 @@
+PROBLEM_FILE = /home/takamichi-lab-pc09/DELSA/results/elsa/azimuth_dry/wordtour.tsp
+OUTPUT_TOUR_FILE = /home/takamichi-lab-pc09/DELSA/results/elsa/azimuth_dry/wordtour.out
+RUNS = 10
+SEED = 42

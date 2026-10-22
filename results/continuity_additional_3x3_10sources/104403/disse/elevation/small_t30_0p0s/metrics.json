@@ -1,0 +1,82 @@
+{
+  "unit_note": "elevations_deg are degrees; radians are used only inside trig functions",
+  "sweep_name": "elevation",
+  "n_elevations": 19,
+  "elevations_deg": [
+    -45.0,
+    -40.0,
+    -35.0,
+    -30.0,
+    -25.0,
+    -20.0,
+    -15.0,
+    -10.0,
+    -5.0,
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0
+  ],
+  "angles_deg": [
+    -45.0,
+    -40.0,
+    -35.0,
+    -30.0,
+    -25.0,
+    -20.0,
+    -15.0,
+    -10.0,
+    -5.0,
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0,
+    35.0,
+    40.0,
+    45.0
+  ],
+  "azimuth_deg_fixed": 0.0,
+  "el_min_deg": -45.0,
+  "el_max_deg": 45.0,
+  "distance_m": 1.5,
+  "room_dims": [
+    6.0,
+    5.0,
+    3.0
+  ],
+  "alpha": 1.0,
+  "max_order": 0,
+  "audio_path": "/home/takamichi-lab-pc09/DELSA/AudioCaps_mp3/test/104403.mp3",
+  "ckpt": "/media/takamichi-lab-pc09/takamichi09/checkpoints_delsa_fromELSA/ckpt_sup_ep20.pt",
+  "embeddings": {
+    "audio_space": {
+      "spearman_vs_absolute_elevation_deg": 0.8745526341065515,
+      "knn_overlap_at_4": 0.7631578947368421,
+      "knn_overlap_at_8": 0.868421052631579
+    },
+    "audio_source": {
+      "spearman_vs_absolute_elevation_deg": 0.7134613478242308,
+      "knn_overlap_at_4": 0.7236842105263158,
+      "knn_overlap_at_8": 0.7894736842105263
+    },
+    "text_space": {
+      "spearman_vs_absolute_elevation_deg": NaN,
+      "knn_overlap_at_4": 0.25,
+      "knn_overlap_at_8": 0.46710526315789475
+    },
+    "text_source": {
+      "spearman_vs_absolute_elevation_deg": NaN,
+      "knn_overlap_at_4": 0.25,
+      "knn_overlap_at_8": 0.46710526315789475
+    }
+  }
+}
