@@ -1,0 +1,14 @@
+{
+  "model": "elsa",
+  "axis": "elevation",
+  "room": "large",
+  "t30_s": 0.3,
+  "condition": "large_t30_0p3s",
+  "n_sources": 10,
+  "embedding_dim": 512,
+  "same_angle_mean": 0.6245244783964771,
+  "different_angle_mean": 0.6653401006073671,
+  "separation": 0.040815622210889926,
+  "loso_recall_at_1": 0.15789473684210525,
+  "rsa_mean": 0.8404446897758152
+}

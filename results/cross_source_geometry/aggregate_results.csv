@@ -1,0 +1,3 @@
+model,axis,room,t30_s,condition,n_sources,embedding_dim,same_angle_mean,different_angle_mean,separation,loso_recall_at_1,rsa_mean
+disse,azimuth,medium,0.3,medium_t30_0p3s,10,512,0.2204397220670441,0.6082018919243768,0.38776216985733264,0.34444444444444444,0.9149815915637052
+elsa,azimuth,medium,0.3,medium_t30_0p3s,10,512,0.6268288868077008,0.7987509590988987,0.17192207229119802,0.15,0.9106546058864394

@@ -1,0 +1,4 @@
+axis,room,condition,metric,model_left,model_right,n_pairs,difference_right_minus_left_mean,difference_std,difference_median
+azimuth,medium,medium_t30_0p3s,same_angle_mean,disse,elsa,45,0.40638916474065656,0.08941126662193001,0.40112316028939354
+azimuth,medium,medium_t30_0p3s,different_angle_mean,disse,elsa,45,0.19054906717452194,0.08634950003585111,0.1870874909797745
+azimuth,medium,medium_t30_0p3s,separation,disse,elsa,45,-0.21584009756613473,0.026708399248159133,-0.20807022037034123

@@ -1,0 +1,14 @@
+{
+  "model": "disse",
+  "axis": "azimuth",
+  "room": "small",
+  "t30_s": 0.0,
+  "condition": "small_t30_0p0s",
+  "n_sources": 10,
+  "embedding_dim": 512,
+  "same_angle_mean": 0.1961800550972974,
+  "different_angle_mean": 0.4121338477550932,
+  "separation": 0.21595379265779582,
+  "loso_recall_at_1": 0.3861111111111111,
+  "rsa_mean": 0.9756051659406708
+}

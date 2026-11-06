@@ -1,0 +1,14 @@
+{
+  "model": "disse",
+  "axis": "elevation",
+  "room": "large",
+  "t30_s": 0.3,
+  "condition": "large_t30_0p3s",
+  "n_sources": 10,
+  "embedding_dim": 512,
+  "same_angle_mean": 0.28346149001205173,
+  "different_angle_mean": 0.5838850579957361,
+  "separation": 0.30042356798368436,
+  "loso_recall_at_1": 0.45789473684210524,
+  "rsa_mean": 0.9289559283525735
+}

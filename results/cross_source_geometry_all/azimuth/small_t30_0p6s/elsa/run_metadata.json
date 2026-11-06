@@ -1,0 +1,14 @@
+{
+  "model": "elsa",
+  "axis": "azimuth",
+  "room": "small",
+  "t30_s": 0.6,
+  "condition": "small_t30_0p6s",
+  "n_sources": 10,
+  "embedding_dim": 512,
+  "same_angle_mean": 0.6639350122507708,
+  "different_angle_mean": 0.847004763058861,
+  "separation": 0.18306975080808993,
+  "loso_recall_at_1": 0.18194444444444444,
+  "rsa_mean": 0.9298403597041024
+}
